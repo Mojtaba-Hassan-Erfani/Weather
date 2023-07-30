@@ -11,17 +11,17 @@ This project is a simple weather dashboard that displays weather information for
 
 ## About
 
-The weather dashboard fetches data from the OpenWeatherMap API and displays the weather information for any city entered by the user. This is a client-side JavaScript application built with vanilla JavaScript, HTML, and CSS.
+The weather dashboard fetches data from the OpenWeatherMap API and displays the weather information for any city selected by the user. This is a client-side JavaScript application built with vanilla JavaScript, HTML, and CSS.
 
 ## Features
 
 - User-friendly interface
-- Search weather by city
-- Display current weather data including temperature, humidity, and wind speed
+- Get weather by city
+- Display current weather data including current, max and min temperature
 
 ## Usage
 
-Enter the name of a city in the input field and click 'Get Weather'. The weather information will be displayed below.
+Select a city in the dropdown. The weather information will be displayed below.
 
 ## Tech Stack
 
@@ -34,6 +34,3 @@ Enter the name of a city in the input field and click 'Get Weather'. The weather
 
 - Include forecast information for the next few days
 - Add a feature to display weather based on user's current location
-
----
-Contributions are welcome! Please feel free to submit a Pull Request.
