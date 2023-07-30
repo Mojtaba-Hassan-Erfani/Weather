@@ -1,0 +1,40 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+h3{
+	color: #464646;
+}
+
+/* Style the dropdown container */
+.dropdown {
+	background-color: #00a075;
+	color: #ffffff;
+	min-width: 160px;
+	padding: 6px 10px 6px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Style the dropdown content - initially hidden */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.tmp-data {
+	position: absolute;
+    top: 35%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Utilities */
+.center {
+	text-align: center;
+}

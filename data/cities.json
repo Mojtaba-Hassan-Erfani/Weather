@@ -1,0 +1,9 @@
+{
+    "cities": [
+        { "city": "graz", "lat": 47.076668, "lon": 15.421371 },
+        { "city": "villach", "lat": 46.61028, "lon": 13.85583 },
+        { "city": "wien", "lat": 48.20849, "lon": 16.37208 },
+        { "city": "salzburg", "lat": 47.79941, "lon": 13.04399 },
+        { "city": "linz", "lat": 48.30639, "lon": 14.28611 }
+    ]
+}

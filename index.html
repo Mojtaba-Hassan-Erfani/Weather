@@ -1,11 +1,30 @@
 <!DOCTYPE html>
+
 <head>
     <title>Javascript</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <script type="module" src="js/main.js"></script>
 </head>
-<body>
-    <h1>Moji Weather<br>
-        <small>Get the weather info by Cityname</small>
-    </h1>
+
+<body class="center">
+    <h1>Moji Weather</h1>
+    <h3>Get the weather info by City</h3>
+    <hr />
+    <form>
+        <label for="cities">Choose a city:</label>
+        <select class="dropdown cities" name="cities">
+            <option value="graz">Graz(default)</option>
+            <option value="villach">Villach</option>
+            <option value="wien">Wien</option>
+            <option value="salzburg">Salzburg</option>
+            <option value="linz">Linz</option>
+        </select>
+    </form>
+    <div class="tmp-data">
+        <p><strong>Temperatur: </strong><span class="current-tmp"></span></p>
+        <p><strong>Temperatur-min: </strong><span class="tmp-min"></span></p>
+        <p><strong>Temperatur-max: </strong><span class="tmp-max"></span></p>
+    </div>
 </body>
+
 </html>
